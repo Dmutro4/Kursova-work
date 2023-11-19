@@ -1,0 +1,41 @@
+.group-page {
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 50px 400px 100px;
+    gap: 20px;
+    justify-items: center;
+}
+
+.group-page-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.group-page-item {
+    background-color: #0b2eb8;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.group-page-item:hover {
+    transform: scale(1.05);
+}
+
+.group-page-button button {
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #4b5c93;
+    cursor: pointer;
+}
